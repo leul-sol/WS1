@@ -221,7 +221,7 @@ class TwitterScraper:
             logger.error(f"Error saving posts to JSON: {str(e)}")
 
     def close(self):
-        """Close the browser and database connection"""
+        """Close browser and database connection"""
         if self.driver:
             self.driver.quit()
             logger.info("Browser closed")
