@@ -1,0 +1,93 @@
+2025-05-07 15:48:42,356 - database - INFO - Successfully connected to MongoDB
+2025-05-07 15:48:42,357 - WDM - INFO - ====== WebDriver manager ======
+2025-05-07 15:48:43,640 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 15:48:44,373 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 15:48:45,035 - WDM - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\136.0.7103.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-07 15:48:46,689 - scraper - INFO - Browser initialized successfully
+2025-05-07 15:48:55,767 - scraper - INFO - Successfully logged in to Twitter
+2025-05-07 15:48:59,242 - scraper - INFO - Successfully navigated to profile
+2025-05-07 15:49:02,243 - scraper - INFO - Starting to scrape posts...
+2025-05-07 15:49:03,654 - database - INFO - Updated existing tweet from 2025-05-07T07:13:02.000Z
+2025-05-07 15:49:03,660 - scraper - INFO - Scraped post 1 of 50
+2025-05-07 15:49:04,762 - database - INFO - Updated existing tweet from 2025-05-07T07:11:41.000Z
+2025-05-07 15:49:04,762 - scraper - INFO - Scraped post 2 of 50
+2025-05-07 15:49:06,800 - scraper - INFO - Reached the end of the page
+2025-05-07 15:49:06,802 - scraper - INFO - Successfully saved 2 posts to twitter_posts_20250507_154906.json
+2025-05-07 15:49:39,346 - scraper - INFO - Browser closed
+2025-05-07 15:49:39,451 - database - INFO - MongoDB connection closed
+2025-05-09 10:26:37,792 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:26:37,794 - WDM - INFO - ====== WebDriver manager ======
+2025-05-09 10:26:39,482 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:26:40,142 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:26:40,752 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:26:42,142 - WDM - INFO - WebDriver version 136.0.7103.92 selected
+2025-05-09 10:26:42,148 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-09 10:26:42,149 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-09 10:26:43,044 - WDM - INFO - Driver downloading response is 200
+2025-05-09 10:26:45,306 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:26:47,543 - WDM - INFO - Driver has been saved in cache [C:\Users\hp\.wdm\drivers\chromedriver\win64\136.0.7103.92]
+2025-05-09 10:26:47,583 - scraper - ERROR - Error initializing browser: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:26:47,587 - __main__ - ERROR - An error occurred: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:27:37,369 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:27:37,371 - WDM - INFO - ====== WebDriver manager ======
+2025-05-09 10:27:38,559 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:27:39,227 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:27:39,851 - WDM - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\136.0.7103.92\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-09 10:27:39,854 - scraper - ERROR - Error initializing browser: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:27:39,855 - __main__ - ERROR - An error occurred: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:28:02,926 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:28:02,929 - WDM - INFO - ====== WebDriver manager ======
+2025-05-09 10:28:04,742 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:28:05,392 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:28:05,974 - WDM - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\136.0.7103.92\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-09 10:28:05,979 - scraper - ERROR - Error initializing browser: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:28:05,979 - __main__ - ERROR - An error occurred: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:31:53,870 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:31:53,871 - WDM - INFO - ====== WebDriver manager ======
+2025-05-09 10:31:56,991 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:31:58,362 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 10:31:59,652 - WDM - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win64\136.0.7103.92\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-09 10:31:59,746 - scraper - ERROR - Error initializing browser: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:31:59,746 - __main__ - ERROR - An error occurred: [WinError 193] %1 is not a valid Win32 application
+2025-05-09 10:39:50,526 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:39:50,526 - scraper - ERROR - Error initializing browser: ChromeDriverManager.__init__() got an unexpected keyword argument 'os_type'
+2025-05-09 10:39:50,528 - __main__ - ERROR - An error occurred: ChromeDriverManager.__init__() got an unexpected keyword argument 'os_type'
+2025-05-09 10:40:43,395 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:40:43,396 - scraper - ERROR - Error initializing browser: ChromeDriverManager.__init__() got an unexpected keyword argument 'version'
+2025-05-09 10:40:43,396 - __main__ - ERROR - An error occurred: ChromeDriverManager.__init__() got an unexpected keyword argument 'version'
+2025-05-09 10:43:50,216 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:43:52,560 - scraper - INFO - Browser initialized successfully
+2025-05-09 10:44:00,671 - scraper - INFO - Successfully logged in to Twitter
+2025-05-09 10:44:05,588 - scraper - INFO - Successfully navigated to profile
+2025-05-09 10:44:08,589 - scraper - INFO - Starting to scrape posts...
+2025-05-09 10:44:10,093 - database - INFO - Inserted new tweet from 2025-05-09T07:26:07.000Z
+2025-05-09 10:44:10,093 - scraper - INFO - Scraped post 1 of 50
+2025-05-09 10:44:10,715 - database - INFO - Updated existing tweet from 2025-05-07T07:13:02.000Z
+2025-05-09 10:44:10,717 - scraper - INFO - Scraped post 2 of 50
+2025-05-09 10:44:11,211 - database - INFO - Updated existing tweet from 2025-05-07T07:11:41.000Z
+2025-05-09 10:44:11,211 - scraper - INFO - Scraped post 3 of 50
+2025-05-09 10:44:13,661 - database - INFO - Updated existing tweet from 2025-05-09T07:26:07.000Z
+2025-05-09 10:44:13,671 - scraper - INFO - Scraped post 4 of 50
+2025-05-09 10:44:14,041 - database - INFO - Updated existing tweet from 2025-05-07T07:13:02.000Z
+2025-05-09 10:44:14,042 - scraper - INFO - Scraped post 5 of 50
+2025-05-09 10:44:14,381 - database - INFO - Updated existing tweet from 2025-05-07T07:11:41.000Z
+2025-05-09 10:44:14,381 - scraper - INFO - Scraped post 6 of 50
+2025-05-09 10:44:16,397 - scraper - INFO - Reached the end of the page
+2025-05-09 10:44:16,399 - scraper - ERROR - Error saving posts to JSON: Object of type ObjectId is not JSON serializable
+2025-05-09 10:44:48,821 - scraper - INFO - Browser closed
+2025-05-09 10:44:48,941 - database - INFO - MongoDB connection closed
+2025-05-09 10:46:09,868 - database - INFO - Successfully connected to MongoDB
+2025-05-09 10:46:11,006 - scraper - INFO - Browser initialized successfully
+2025-05-09 10:46:19,891 - scraper - INFO - Successfully logged in to Twitter
+2025-05-09 10:46:25,433 - scraper - INFO - Successfully navigated to profile
+2025-05-09 10:46:28,435 - scraper - INFO - Starting to scrape posts...
+2025-05-09 10:46:29,472 - database - INFO - Updated existing tweet from 2025-05-09T07:26:07.000Z
+2025-05-09 10:46:29,473 - scraper - INFO - Scraped post 1 of 50
+2025-05-09 10:46:29,865 - database - INFO - Updated existing tweet from 2025-05-07T07:13:02.000Z
+2025-05-09 10:46:29,865 - scraper - INFO - Scraped post 2 of 50
+2025-05-09 10:46:30,235 - database - INFO - Updated existing tweet from 2025-05-07T07:11:41.000Z
+2025-05-09 10:46:30,235 - scraper - INFO - Scraped post 3 of 50
+2025-05-09 10:46:32,277 - scraper - INFO - Reached the end of the page
+2025-05-09 10:46:32,277 - scraper - INFO - Successfully saved 3 posts to twitter_posts_20250509_104632.json
+2025-05-09 10:47:06,654 - scraper - INFO - Browser closed
+2025-05-09 10:47:06,755 - database - INFO - MongoDB connection closed
