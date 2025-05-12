@@ -23,7 +23,6 @@ class Config:
     # Chrome options
     CHROME_OPTIONS = [
         '--start-maximized',
-        # '--headless',  # Uncomment to run in headless mode
     ]
     
     # Logging settings

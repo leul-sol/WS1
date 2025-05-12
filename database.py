@@ -2,6 +2,8 @@ from pymongo import MongoClient
 from datetime import datetime
 import logging
 from config import Config
+import certifi
+import ssl
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +20,19 @@ class Database:
             if not Config.MONGODB_URI:
                 raise ValueError("MONGODB_URI not found in environment variables")
 
-            self.client = MongoClient(Config.MONGODB_URI)
+            # Add SSL/TLS settings to the connection
+            self.client = MongoClient(
+                Config.MONGODB_URI,
+                tls=True,
+                tlsAllowInvalidCertificates=True,
+                serverSelectionTimeoutMS=30000,
+                connectTimeoutMS=30000,
+                socketTimeoutMS=30000
+            )
+            
+            # Test the connection
+            self.client.admin.command('ping')
+            
             self.db = self.client[Config.MONGODB_DATABASE]
             self.collection = self.db[Config.MONGODB_COLLECTION]
             
