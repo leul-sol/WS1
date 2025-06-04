@@ -1,2 +1,3 @@
 .env
 venv/
+playwright_user_data/
